@@ -17,7 +17,7 @@ class ComposerStaticInitc56ccd3aaf757f997316d1b0b0a697a3
     public static $prefixDirsPsr4 = array (
         'ZionFfStyler\\Elements\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/elements',
+            0 => __DIR__ . '/../..' . '/Elements',
         ),
         'ZionFfStyler\\' => 
         array (
