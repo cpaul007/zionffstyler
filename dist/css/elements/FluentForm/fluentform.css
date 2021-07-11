@@ -1,0 +1,125 @@
+.zb-el-zffFfStyler select.ff-el-form-control:not([size]):not([multiple]) {
+	height: auto!important;
+}
+
+.zb-el-zffFfStyler .fluentform input[type=checkbox] {
+  -webkit-appearance: checkbox;
+}
+
+.zb-el-zffFfStyler .fluentform input[type=radio] {
+	-webkit-appearance: radio;
+}
+
+.zff-ff-cbui .ff-el-group input[type=radio],
+.zff-ff-cbui .ff-el-group input[type=checkbox] {
+	visibility: hidden;
+	margin-right: 6px;
+}
+
+.zff-ff-cbui .ff-el-group input[type=checkbox]:before,
+.zff-ff-cbui .ff-el-group input[type=radio]:before{
+  content:none;
+}
+
+.zff-ff-cbui .ff-el-group input[type=checkbox]:after,
+.zff-ff-cbui .ff-el-group input[type=radio]:after {
+	background-color: #fff;
+	border-width: 1px;
+	content: '';
+	color: #212529;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	visibility: visible;
+	border-style: solid;
+	border-radius: .25rem;
+	-webkit-transition: all .1s ease;
+	transition: all .1s ease;
+	background-size: 9px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+.zff-ff-cbui .ff-el-group input[type=checkbox]:checked:after, 
+.zff-ff-cbui .ff-el-group input[type=radio]:checked:after {
+	border-width: 1px;
+	background-color: #222;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+} 
+
+.zff-ff-cbui .ff-el-group input[type=radio]:after {
+  border-radius: 50%;
+} 
+
+.zff-ff-cbui .ff-el-group input[type=radio]:checked:after {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.zb-el-zffFfStyler .fluentform .ff-btn.ff-btn-submit:focus,
+.zb-el-zffFfStyler .fluentform .ff-btn.ff-btn-submit:hover {
+	opacity: 1;
+}
+
+.zb-el-zffFfStyler .fluentform .ff-checkable-grids,
+.zb-el-zffFfStyler .ff-el-input--label,
+.zb-el-zffFfStyler .ff-el-input--label label,
+.zb-el-zffFfStyler .ff_repeater_table th .ff-el-input--label,
+.zb-el-zffFfStyler .ff_repeater_table th .ff-el-input--label label {
+	width: 100%;
+}
+
+.zb-el-zffFfStyler .ff-el-group input[type=radio] {
+	height: auto;
+}
+
+.zb-el-zffFfStyler .ff-el-group input[type=radio]:hover {
+    box-shadow: none;
+}
+
+.zb-el-zffFfStyler .fluentform .ff-el-tc {
+	border-collapse: unset;
+}
+
+.zb-el-zffFfStyler .fluentform span.ff-el-rating-text {
+	vertical-align: middle;
+}
+
+.zb-el-zffFfStyler .fluentform  {
+	--repeat-btn-size: 20px;
+}
+
+.zb-el-zffFfStyler .fluentform .repeat_btn svg {
+	width: var(--repeat-btn-size);
+	height: var(--repeat-btn-size);
+	fill: currentColor;
+}
+
+.zb-el-zffFfStyler .ff-el-net-label span {
+    position: relative;
+    z-index: 1;
+}
+
+.zb-el-zffFfStyler .ff-el-net-label span,
+.zb-el-zffFfStyler .ff-el-net-label:hover span,
+.zb-el-zffFfStyler .fluentform .ff-el-progress span {
+  position: relative;
+  z-index: 2;
+}
+
+.zb-el-zffFfStyler .fluentform .ff-el-progress {
+	overflow: visible;
+}
+
+@media only screen and (min-width: 768px) {
+	.zb-el-zffFfStyler .frm-fluent-form .ff-t-cell:first-of-type {
+		padding-left: 0!important;
+	}
+
+	.zb-el-zffFfStyler .frm-fluent-form .ff-t-cell:last-of-type {
+    padding-right: 0!important;
+	}
+}
