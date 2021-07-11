@@ -7,7 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'ZionFfStyler\\Elements\\FluentForm\\FluentForm' => $baseDir . '/elements/FluentForm/FluentForm.php',
+    'ZionFfStyler\\Elements\\FluentForm\\FluentForm' => $baseDir . '/Elements/FluentForm/FluentForm.php',
     'ZionFfStyler\\Plugin' => $baseDir . '/includes/Plugin.php',
     'ZionFfStyler\\RegisterElements' => $baseDir . '/includes/RegisterElements.php',
     'ZionFfStyler\\UltimateElements' => $baseDir . '/includes/UltimateElements.php',
