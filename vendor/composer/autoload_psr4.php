@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ZionFfStyler\\Elements\\' => array($baseDir . '/elements'),
+    'ZionFfStyler\\Elements\\' => array($baseDir . '/Elements'),
     'ZionFfStyler\\' => array($baseDir . '/includes'),
 );
