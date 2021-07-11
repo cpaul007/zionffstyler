@@ -27,7 +27,7 @@ class ComposerStaticInitc56ccd3aaf757f997316d1b0b0a697a3
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'ZionFfStyler\\Elements\\FluentForm\\FluentForm' => __DIR__ . '/../..' . '/elements/FluentForm/FluentForm.php',
+        'ZionFfStyler\\Elements\\FluentForm\\FluentForm' => __DIR__ . '/../..' . '/Elements/FluentForm/FluentForm.php',
         'ZionFfStyler\\Plugin' => __DIR__ . '/../..' . '/includes/Plugin.php',
         'ZionFfStyler\\RegisterElements' => __DIR__ . '/../..' . '/includes/RegisterElements.php',
         'ZionFfStyler\\UltimateElements' => __DIR__ . '/../..' . '/includes/UltimateElements.php',
