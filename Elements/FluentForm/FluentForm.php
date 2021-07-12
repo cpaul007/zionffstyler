@@ -111,7 +111,7 @@ class FluentForm extends UltimateElements {
 				'responsive_options' => true,
 				'css_style' 	=> [
 					[
-						'selector' => '{{ELEMENT}} textarea.ff-el-form-control',
+						'selector' => '{{ELEMENT}} .fluentform textarea.ff-el-form-control',
 						'value'    => 'height: {{VALUE}}',
 					],
 				],
