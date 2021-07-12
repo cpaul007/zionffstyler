@@ -31,7 +31,7 @@ class Plugin {
 
     static function define_constants() {
         //* Define constants
-        define( 'ZFF_VERSION',    '1.0' );
+        define( 'ZFF_VERSION',    '1.0.1' );
         define( 'ZFF_FILE',       trailingslashit( dirname( dirname( __FILE__ ) ) ) . 'zionffstyler.php' );
         define( 'ZFF_DIR',        plugin_dir_path( ZFF_FILE ) );
         define( 'ZFF_URL',        plugins_url( '/', ZFF_FILE ) );
