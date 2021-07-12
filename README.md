@@ -10,5 +10,9 @@ Fluent Form Styler element for Zion Builder plugin. You can easily customize the
 After activating the plugin, you will open your zion builder editor and add the FF Styler element.
 
 # Changelog
+
+## 1.0.1
+Fix - Height of textarea field is conflicting with input field's height.
+
 ## 1.0.0
 Initial Release
