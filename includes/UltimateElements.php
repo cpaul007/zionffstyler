@@ -35,9 +35,12 @@ class UltimateElements extends Element {
 			global $wpdb;
 			$result = $wpdb->get_results( "SELECT * FROM {$wpdb->prefix}fluentform_forms" );
 			if ( $result ) {
+				$i = 1;
 				foreach ( $result as $form ) {
-					$options[$form->id]['id'] = $form->id;
-					$options[$form->id]['name'] = esc_html__( $form->title );
+					$options[$i]['id'] = $form->id;
+					$options[$i]['name'] = esc_html__( $form->title );
+					
+					$i++;
 				}
 			} else {
 				$options[0]['id'] = -1;
