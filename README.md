@@ -11,6 +11,9 @@ After activating the plugin, you will open your zion builder editor and add the 
 
 # Changelog
 
+## 1.0.2
+Fix - Unable to select the Fulent Form from the dropdown.
+
 ## 1.0.1
 Fix - Height of textarea field is conflicting with input field's height.
 
